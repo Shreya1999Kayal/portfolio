@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #002f7b;
+  --color-leaf: #afeb8f;
+  --font-sans: "Lexend", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Lexend Exa", "Lexend", "Segoe UI", sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
